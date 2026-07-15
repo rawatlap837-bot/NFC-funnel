@@ -29,6 +29,7 @@ const updateCardGlowProperties = (
 };
 
 export interface GlobalSpotlightProps {
+  particleCount?: number;
   gridRef: React.RefObject<HTMLDivElement | null>;
   sectionSelector: string;
   cardSelector?: string;

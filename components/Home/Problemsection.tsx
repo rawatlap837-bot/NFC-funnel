@@ -94,7 +94,6 @@ export default function ProblemSection() {
       {!disableAnimations && (
         <div className="pointer-events-none absolute inset-0 z-0 rounded-2xl">
           <GlobalSpotlight
-            particleCount={30}
             gridRef={gridRef}
             sectionSelector=".problem-section"
             cardSelector=".problem-card"
